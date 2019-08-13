@@ -1,0 +1,17 @@
+{
+  "name": "Protractor Homework",
+  "description": "Example of using Protractor with Cucumber and Page Objects",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "chai-as-promised": "~6.0.0",
+    "cucumber": "~5.1.0",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^3.0.0"
+  },
+  "scripts": {
+    "prestart-webdriver": "webdriver-manager update",
+    "start-webdriver": "webdriver-manager start",
+    "protractor": "protractor protractor.conf.js"
+  }
+}
