@@ -8,9 +8,9 @@ var AddNewWinePage=function () {
         // browser.wait(headerVisible, 5000);
         waitForElement(by.id('header'));
     }
-    this.getConfrimMessage=function () {
-        return 'open';
-    };
+    // this.getConfrimMessage=function () {
+    //     return 'open';
+    // };
 
     this.setName=function (value) {
         waitForElement(by.name('wine.name')).sendKeys(value);
